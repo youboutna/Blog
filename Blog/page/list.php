@@ -48,7 +48,8 @@ $dao = new TodoDao();
 $search = new TodoSearchCriteria();
 $search->setStatus($status);
 
-// data for template
+// data for template TODO find page
+
 $title = Utils::capitalize($status) . ' TODOs';
 $todos = $dao->find($search);
 
