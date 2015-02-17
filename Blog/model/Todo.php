@@ -55,7 +55,7 @@ final class Todo {
     const STATUS_DONE = "DONE";
     const STATUS_VOIDED = "VOIDED";
 
-    /** @var int */
+    /** @var int will  identity in db*/
     private $id;
     /** @var string */
     private $priority;
